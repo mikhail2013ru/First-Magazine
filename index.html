@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Интернет магазин: Styletour</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<link href="css/elastislide.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			<script src="js/modernizr.custom.17475.js"></script>
+		    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		    <!-- Include all compiled plugins (below), or include individual files as needed -->
+		    <script src="js/bootstrap.min.js"></script>
+		    <script src="js/jquery.elastislide.js"></script>
+		    <script src="js/scripts.js"></script>
+
+</head>
+<body>
+
+
+	<header class="header">
+		<div class="menu-top">
+		<!-- Первый блок под меню -->
+			<nav class="navbar navbar-default">
+				<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-top" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="menu-top">
+						<ul class="nav navbar-nav">
+							<li><a href="#">Support</a></li>
+							<li><a href="#">Free Sheeping Over 50$</a></li>
+							<li><a href="#">Articles</a></li>
+						
+								<li class="dropdown">
+				  					<a href="#" class="dropdown-toggle" data-toggle="dropdown" ><span class="flag"><img src="img/flag.jpg" alt="flag"></span>English<span class="caret"></span></a>
+					  				<ul class="dropdown-menu">
+									    <li><a href="#">France</a></li>
+									    <li><a href="#">Russia</a></li>
+									    <li><a href="#">Something else here</a></li>
+									    <li role="separator" class="divider"></li>
+									    <li><a href="#">Separated link</a></li>
+									    <li role="separator" class="divider"></li>
+									    <li><a href="#">One more separated link</a></li>
+									</ul>
+								</li>
+										
+										<!-- Языковое выпадающее меню с флагом -->
+
+								<li class="dropdown">
+								  	<a href="#" class="dropdown-toggle" data-toggle="dropdown">currecy: usd<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+									    <li><a href="#">currecy: eur</a></li>
+									    <li><a href="#">currecy: rur</a></li>
+									    <li><a href="#">Something else here</a></li>
+									    <li role="separator" class="divider"></li>
+									    <li><a href="#">Separated link</a></li>
+									    <li role="separator" class="divider"></li>
+									    <li><a href="#">One more separated link</a></li>
+									</ul>
+								</li>
+						</ul> <!-- /.nav navbar-nav -->
+										<!-- выпадающее меню с валютой -->
+
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">Login</a></li>
+							<li><a href="#">Signup</a></li>
+							<li><a href="#" class="btn-red"><span class="shopping-trash"><img src="img/cart.png" alt="card"></span>shopping card</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container navbar-header -->
+			</nav><!-- /.navbar navbar-default -->
+		</div> <!-- /.menu-top -->
+	</header>
+
+				<!-- Начало слайдера карусель -->
+
+	<section class="menu-carousel"> 
+	<!-- Начало секции карусель -->
+		<div id="carousel" class="carousel fade" data-ride="carousel">
+		  
+		  <!-- Начало второго навигационного блока -->
+			
+			<div class="main-menu"> <!-- Первый блок под меню -->
+				<nav class="navbar navbar-inverse"> <!-- inverse - темная заливка -->
+
+					<div class="container">
+						<div class="main-menu-bg">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+									<a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"><span>StyleTour</span></a>
+					    			<!-- Красный логотип на панели -->
+							</div>
+									<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="main-menu">
+							<ul class="nav navbar-nav">
+								<li><a href="#">Shop</a></li>
+								<li><a href="#">Men</a></li>
+								<li><a href="#">Women</a></li>
+								<li><a href="#">Kids</a></li>
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Sale</a></li>
+							</ul> <!-- Левая сторона кнопок навигации -->
+
+		            		<!-- Начало Лейбла с поиском справа на нанели навигации -->
+							
+							<div class="nav navbar-nav navbar-right">
+								<form class="navbar-form navbar-left" role="search" method="get" action="">
+					        		<div class="input-group">
+					          			<input type="text" class="form-control" placeholder="Search">
+					          			<span class="input-group-btn">
+					          				<button type="submit" class="btn btn-default" name="go"><i class="glyphicon glyphicon-search"></i></button>
+					          			</span>
+					        		</div>
+					      		</form>
+							</div>
+							<!-- Конец Лейбла с поиском справа на нанели навигации -->
+						</div><!-- /.navbar-collapse -->
+						<i class="search glyphicon glyphicon-search"></i>
+					</div><!-- main-menu-bg  -->
+				</div><!-- container -->
+			</nav><!-- navbar navbar-inverse -->
+		</div> <!-- Конец навигационного блока -->
+
+		  <!-- Indicators -->
+		
+		<div class="carousel-indicators-wrap"> 
+		<!-- Начало обертки для индикаторов карусели -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel" data-slide-to="1"></li>
+			    <li data-target="#carousel" data-slide-to="2"></li>
+			    <li data-target="#carousel" data-slide-to="3"></li>
+			  </ol>
+		</div> <!-- Конец обертки для индикаторов карусели -->
+
+		  <!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <!-- <img src="img/slider.jpg" alt="slider"> -->
+		     	<div class="bgslide" style="background-image: url(img/slider.jpg);">
+		    	</div>
+		    <div class="container"> <!-- Выравниванием текст адаптивно 1-->
+		    	<div class="carousel-caption">
+			        <h1>Women's Apparel</h1>
+			        <h3>T-Shirts, Dress Shirts, Tanks, Pants and More...</h3>
+			         <a href="#" class="btn-red">Shop Women’s Apparel</a>
+		      	</div>
+		    </div> <!-- Выравниванием текст адаптивно 1-->
+		    </div>
+		    <div class="item"> <!-- Класс слайдов -->
+		      <!-- <img src="img/slider.jpg" alt="slider"> -->
+		      <div class="bgslide" style="background-image: url(img/slider.jpg);">
+		      </div>
+		    <div class="container"> <!-- Выравниванием текст адаптивно 2-->
+		      <div class="carousel-caption"> 
+		        <h1>Women's Apparel 2</h1>
+		        <h3>T-Shirts, Dress Shirts, Tanks, Pants and More...</h3>
+		        <a href="#" class="btn-red">Shop Women’s Apparel</a>
+		      </div>
+		      </div> <!-- Выравниванием текст адаптивно 2-->
+		    </div>
+
+		    <div class="item"> <!-- Класс слайдов -->
+		      <!-- <img src="img/slider.jpg" alt="slider"> -->
+		      <div class="bgslide" style="background-image: url(img/slider.jpg);">
+		      </div>
+		    <div class="container"> <!-- Выравниванием текст адаптивно 2-->
+		      <div class="carousel-caption"> 
+		        <h1>Women's Apparel 3</h1>
+		        <h3>T-Shirts, Dress Shirts, Tanks, Pants and More...</h3>
+		        <a href="#" class="btn-red">Shop Women’s Apparel</a>
+		      </div>
+		      </div> <!-- Выравниванием текст адаптивно 2-->
+		    </div>
+
+		    <div class="item"> <!-- Класс слайдов -->
+		      <!-- <img src="img/slider.jpg" alt="slider"> -->
+		      <div class="bgslide" style="background-image: url(img/slider.jpg);">
+		      </div>
+		    <div class="container"> <!-- Выравниванием текст адаптивно 2-->
+		      <div class="carousel-caption"> 
+		        <h1>Women's Apparel 4</h1>
+		        <h3>T-Shirts, Dress Shirts, Tanks, Pants and More...</h3>
+		        <a href="#" class="btn-red">Shop Women’s Apparel</a>
+		      </div>
+		    </div> <!-- Выравниванием текст адаптивно 2-->
+		    </div>
+
+		    <div class="item"> <!-- Класс слайдов -->
+		      <!-- <img src="img/slider.jpg" alt="slider"> -->
+		      <div class="bgslide" style="background-image: url(img/slider.jpg);">
+		      </div>
+		    <div class="container"> <!-- Выравниванием текст адаптивно 2-->
+		      <div class="carousel-caption"> 
+		        <h1>Women's Apparel 4</h1>
+		        <h3>T-Shirts, Dress Shirts, Tanks, Pants and More...</h3>
+		        <a href="#" class="btn-red">Shop Women’s Apparel</a>
+		      </div>
+		    </div> <!-- Выравниванием текст адаптивно 2-->
+		</div>
+	</div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div> <!-- Конец слайдера карусель -->
+	</section> <!-- Конец секции карусель -->
+
+	<!-- Начало блока секции main-slogan -->
+
+	<section class="main-slogan"> 
+	<!-- 3 основной блок -->
+		<div class="container"> 
+		<!-- Огранические ширины слогана --> 
+			<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</h1>
+		</div>
+	</section> <!-- Конец 3 основного блока -->
+
+	<section class="main-content"> 
+	<!-- 4 основной блок: структура контентной части-->
+		<div class="container"> 
+		<!-- Контейнер занимает 3 колонки слева -->
+			<div class="row">
+				<div class="col-md-9 col-md-push-3"> 
+				<!-- .col-md-9 col-md-push-3 сдвиг вправо на 3 колонки-->
+					<div class="row">
+					<!-- Задаём сетку для выравнивания всего контента -->
+						<div class="content">
+							<!-- Первый ряд продукции -->
+							<h3>Items on Demand</h3>
+							<!-- Далее под каждый div будет 3 товара по одном ряду продукта-->
+							<div class="products-row clearfix">
+								<!-- каждый продукт будет занимать 4 колонки на средних экранах -->
+								<!-- Первый продукт -->
+								<div class="col-sm-4">
+									<div class="product">
+										<div class="product-favourites">
+											<span class="glyphicon glyphicon-heart"></span>
+										</div><!-- /.product-favourites -->
+										<div class="product-img">
+											<a href="#"><img src="img/goods1.jpg" alt="CREAM JANE JEANS DRESS"></a>
+										</div><!-- /.product-img -->
+										<p class="product-title">
+											<a href="">CREAM JANE JEANS DRESS</a>
+										</p><!-- /.product-title -->
+										<p class="product-desc">
+											Signature NYX cosmetics Signature NYX cosmetics
+										</p><!-- /.product-desc -->
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €10.00
+											</p><!-- /.product-price -->
+											<a href="#" class="btn btn-default">add to cart</a>
+										</div><!-- /.product-buy -->
+									</div><!-- /.product -->
+								</div><!-- /.col-sm-4 -->
+								<!-- Второй продукт -->
+								<div class="col-sm-4">
+									<div class="product">
+										<div class="product-sale img-circle">
+											<span>Sale</span>
+										</div><!-- /.product-sale -->
+										<div class="product-img">
+											<a href="#"><img src="img/goods2.jpg" alt="CREAM SISSI TUNIC"></a>
+										</div><!-- /.product-img -->
+										<p class="product-title">
+											<a href="">CREAM SISSI TUNIC</a>
+										</p><!-- /.product-title -->
+										<p class="product-desc">
+											Lightweight with just a hint of sheer color, this hydrating 
+										</p><!-- /.product-desc -->
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €20.00
+											</p><!-- /.product-price -->
+											<a href="#" class="btn btn-default">add to cart</a>
+										</div><!-- /.product-buy -->
+									</div><!-- /.product -->
+								</div><!-- /.col-sm-4 -->
+								<!-- Третий продукт -->
+								<div class="col-sm-4">
+									<div class="product">
+										<div class="product-favourites">
+										</div><!-- /.product-favourites -->
+										<div class="product-img">
+											<a href="#"><img src="img/goods3.jpg" alt="big doodle shawl - blue/black"></a>
+										</div><!-- /.product-img -->
+										<p class="product-title">
+											<a href="">big doodle shawl - blue/black</a>
+										</p><!-- /.product-title -->
+										<p class="product-desc">
+											Lightweight with just a hint of sheer color, this hydrating 
+										</p><!-- /.product-desc -->
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €09.00
+											</p><!-- /.product-price -->
+											<a href="#" class="btn btn-default">add to cart</a>
+										</div><!-- /.product-buy -->
+									</div><!-- /.product -->
+								</div><!-- /.col-sm-4 -->
+							</div><!-- /.products-row -->
+							
+							<!-- Второй ряд продукции -->
+							<h3>Featured Items</h3>
+							<!-- Далее под каждый div будет 3 товара по одном ряду продукта-->
+							<div class="products-row clearfix">
+								<!-- каждый продукт будет занимать 4 колонки на средних экранах -->
+								<!-- Первый продукт -->
+								<div class="col-sm-4">
+									<div class="product">
+										<div class="product-sale img-circle">
+											<span>Sale</span>
+										</div><!-- /.product-favourites -->
+										<div class="product-img">
+											<a href="#"><img src="img/goods4.jpg" alt="CREAM SISSI TUNIC"></a>
+										</div><!-- /.product-img -->
+										<p class="product-title">
+											<a href="">CREAM SISSI TUNIC</a>
+										</p><!-- /.product-title -->
+										<p class="product-desc">
+											Lightweight with just a hint of sheer color, this hydrating
+										</p><!-- /.product-desc -->
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €09.00
+											</p><!-- /.product-price -->
+											<a href="#" class="btn btn-default">add to cart</a>
+										</div><!-- /.product-buy -->
+									</div><!-- /.product -->
+								</div><!-- /.col-sm-4 -->
+								<!-- Второй продукт -->
+								<div class="col-sm-4">
+									<div class="product">
+										<div class="product-favourites">
+										</div><!-- /.product-sale -->
+										<div class="product-img">
+											<a href="#"><img src="img/goods5.jpg" alt="big doodle shawl - blue/black"></a>
+										</div><!-- /.product-img -->
+										<p class="product-title">
+											<a href="">big doodle shawl - blue/black</a>
+										</p><!-- /.product-title -->
+										<p class="product-desc">
+											Lightweight with just a hint of sheer color, this hydrating 
+										</p><!-- /.product-desc -->
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €09.00
+											</p><!-- /.product-price -->
+											<a href="#" class="btn btn-default">add to cart</a>
+										</div><!-- /.product-buy -->
+									</div><!-- /.product -->
+								</div><!-- /.col-sm-4 -->
+								<!-- Третий продукт -->
+								<div class="col-sm-4">
+									<div class="product">
+										<div class="product-favourites">
+										</div><!-- /.product-favourites -->
+										<div class="product-img">
+											<a href="#"><img src="img/goods6.jpg" alt="big doodle shawl - blue/black"></a>
+										</div><!-- /.product-img -->
+										<p class="product-title">
+											<a href="">big doodle shawl - blue/black</a>
+										</p><!-- /.product-title -->
+										<p class="product-desc">
+											Lightweight with just a hint of sheer color, this hydrating
+										</p><!-- /.product-desc -->
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €09.00
+											</p><!-- /.product-price -->
+											<a href="#" class="btn btn-default">add to cart</a>
+										</div><!-- /.product-buy -->
+									</div><!-- /.product -->
+								</div><!-- /.col-sm-4 -->
+							</div><!-- /.products-row -->
+
+							<!-- Промежуточный ряд из 3 баннерных картинок -->
+							<div class="banner-row clearfix">
+								<div class="col-sm-4">
+									<a href="#"><img src="img/content-banner1.jpg" alt="content-banner1"></a>
+								</div>
+								<div class="col-sm-4">
+									<a href="#"><img src="img/content-banner2.jpg" alt="content-banner2"></a>
+								</div>
+								<div class="col-sm-4">
+									<a href="#"><img src="img/content-banner3.jpg" alt="content-banner3"></a>
+								</div>
+							</div><!-- /.banner-row -->
+
+							<!-- Третий ряд продукции -->
+							<h3>Latest Arrivals</h3>
+							<!-- Далее под каждый div будет 3 товара по одном ряду продукта-->
+							<div class="products-row clearfix">
+								<!-- каждый продукт будет занимать 4 колонки на средних экранах -->
+								<!-- Первый продукт -->
+								<div class="col-sm-4">
+									<div class="product">
+										<div class="product-favourites">
+										</div><!-- /.product-favourites -->
+										<div class="product-img">
+											<a href="#"><img src="img/goods7.jpg" alt="CREAM SISSI TUNIC"></a>
+										</div><!-- /.product-img -->
+										<p class="product-title">
+											<a href="">CREAM SISSI TUNIC</a>
+										</p><!-- /.product-title -->
+										<p class="product-desc">
+											Lightweight with just a hint of sheer color, this hydrating 
+										</p><!-- /.product-desc -->
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €20.00
+											</p><!-- /.product-price -->
+											<a href="#" class="btn btn-default">add to cart</a>
+										</div><!-- /.product-buy -->
+									</div><!-- /.product -->
+								</div><!-- /.col-sm-4 -->
+								<!-- Второй продукт -->
+								<div class="col-sm-4">
+									<div class="product">
+										<div class="product-sale img-circle">
+											<span>Sale</span>
+										</div><!-- /.product-sale -->
+										<div class="product-img">
+											<a href="#"><img src="img/goods8.jpg" alt="CREAM SISSI TUNIC"></a>
+										</div><!-- /.product-img -->
+										<p class="product-title">
+											<a href="">big doodle shawl - blue/black</a>
+										</p><!-- /.product-title -->
+										<p class="product-desc">
+											Lightweight with just a hint of sheer color, this hydrating  
+										</p><!-- /.product-desc -->
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €09.00
+											</p><!-- /.product-price -->
+											<a href="#" class="btn btn-default">add to cart</a>
+										</div><!-- /.product-buy -->
+									</div><!-- /.product -->
+								</div><!-- /.col-sm-4 -->
+								<!-- Третий продукт -->
+								<div class="col-sm-4">
+									<div class="product">
+										<div class="product-favourites">
+										</div><!-- /.product-favourites -->
+										<div class="product-img">
+											<a href="#"><img src="img/goods9.jpg" alt="big doodle shawl - blue/black"></a>
+										</div><!-- /.product-img -->
+										<p class="product-title">
+											<a href="">big doodle shawl - blue/black</a>
+										</p><!-- /.product-title -->
+										<p class="product-desc">
+											Lightweight with just a hint of sheer color, this hydrating 
+										</p><!-- /.product-desc -->
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €09.00
+											</p><!-- /.product-price -->
+											<a href="#" class="btn btn-default">add to cart</a>
+										</div><!-- /.product-buy -->
+									</div><!-- /.product -->
+								</div><!-- /.col-sm-4 -->
+							</div><!-- /.products-row -->
+						</div><!-- /.content -->
+					</div>
+				</div><!-- /.col-md-9 col-md-push-3 -->
+
+				<div class="col-md-3 col-md-pull-9"> 
+				<!-- .col-md-3 col-md-pull-9 сдвиг влево на 9 колонок -->
+					<div class="sidebar">
+						<div class="row">
+						<!-- Колонка для widget Popular Categories под мобильные телефоны и средние экраны-->
+							<div class="col-xs-6 col-md-12">
+								<div class="widget"> 
+								<!-- Виджет Popular Categories -->
+									<h3>Popular Categories</h3>
+									<ul>
+										<li><a href="#">Performance Collection</a></li>
+										<li><a href="#">Pants</a></li>
+										<li><a href="#">Woven Shirts</a></li>
+										<li><a href="#">Earth-Friendly Apparel</a></li>
+										<li><a href="#">Sweatshirts</a></li>
+										<li><a href="#">Infants</a></li>
+										<li><a href="#">Shorts</a></li>
+										<li><a href="#">Adult Essentials</a></li>
+										<li class="more"><a href="#">Show More</a></li>
+									</ul>
+								</div><!-- /.widget Popular Categories-->
+							</div><!-- /.col-xs-6 col-md-12-->
+
+							<div class="col-xs-6 col-md-12">
+								<div class="widget"> 
+								<!-- Виджет Popular Brands -->
+									<h3>Popular Brands</h3>
+									<ul>
+										<li><a href="#">Ashworth</a></li>
+										<li><a href="#">Rabbit Skins</a></li>
+										<li><a href="#">Izod</a></li>
+										<li><a href="#">LAT</a></li>
+										<li><a href="#">Authentic Pigment</a></li>
+										<li><a href="#">Canvas</a></li>
+										<li><a href="#">Apples & Oranges</a></li>
+										<li><a href="#">OccuNomix</a></li>
+										<li class="more"><a href="#">Show More</a></li>
+									</ul>
+								</div><!-- /.widget Popular Brands-->
+							</div><!-- /.col-xs-6 col-md-12-->
+						</div><!-- /.row -->
+
+						<div class="row">
+							<!-- Колонка под карусель и под баннер -->
+							<div class="col-md-12 col-xs-6 text-center">
+							<!-- На desktop занимаем всю доступную ширину страницы, на мобильных половину -->
+
+								<div id="carousel-sidebar" class="carousel fade" data-ride="carousel">
+								<!-- Начало carousel-sidebar -->
+									<!-- Wrapper for slides -->
+									<div class="carousel-inner" role="listbox">
+										<div class="item active">
+											<img src="img/slide-sidebar1.jpg" alt="slide-sidebar1">
+									      	<div class="sidebar-carousel-caption">
+										        <div>
+											        <h4>Fashion Colors For Women 3</h4>
+											        <p>Make every category of your webstore look special by setting different color schemes.</p>
+										        </div>
+									      	</div>
+										</div>
+
+										<div class="item">
+											<img src="img/slide-sidebar2.jpg" alt="slide-sidebar2">
+									      	<div class="sidebar-carousel-caption">
+										        <div>
+											        <h4>Fashion Colors For Women 3</h4>
+											        <p>Make every category of your webstore look special by setting different color schemes.</p>
+										        </div>
+									      	</div>
+										</div>
+
+										<div class="item">
+											<img src="img/slide-sidebar2.jpg" alt="slide-sidebar2"> 
+										   
+									      	<div class="sidebar-carousel-caption">
+									      		<div>
+											        <h4>Fashion Colors For Women 3</h4>
+											        <p>Make every category of your webstore look special by setting different color schemes.</p>
+										        </div>
+									      	</div>
+										</div>
+									</div>
+
+									<!-- Indicators -->
+									<ol class="carousel-indicators">
+									    <li data-target="#carousel-sidebar" data-slide-to="0" class="active"></li>
+									    <li data-target="#carousel-sidebar" data-slide-to="1"></li>
+									    <li data-target="#carousel-sidebar" data-slide-to="2"></li>
+								  	</ol>
+								</div> <!-- /.carousel-sidebar -->
+							</div> <!-- /.col-md-12 col-xs-6 -->
+
+							<div class="col-md-12 col-xs-6 text-center">
+							<!-- На desktop занимаем всю доступную ширину страницы, на мобильных половину -->
+								<div class="banner">
+									<img src="img/banner.jpg" alt="banner">
+									<h3>introducing</h3>
+									<h2>bombshell</h2>
+									<h3>forever</h3>
+									<a href="#" class="btn-red">shop now</a>
+								</div>	
+							</div>	
+						</div> <!-- /.row col-md-12 col-xs-6 -->
+
+						<div class="about">
+							<h3>About Store</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+							<p><span>Ut enim ad minim veniam, quis nostrud exercitation. Aiusmod tempor incididunt ut labore et dolore magna aliqua</span></p>
+						</div>
+					</div><!-- /.sidebar на 2 виджета-->
+				</div><!-- /.col-md-3 col-md-pull-9 --> 
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section> <!-- Конец 4 основного блока -->
+
+	<section class="bottom-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h3>Get Discounts and Free Offers</h3>
+					<h4>Get free coupens, discounts and new arivals</h4>
+				</div>
+
+				<div class="col-md-8">
+					<form class="form-inline">
+						<div class="row">
+							<div class="form-group col-sm-4">
+								<input type="text" name="name" class="form-control" placeholder="your full name">
+							</div>
+
+							<div class="form-group col-sm-4">
+								<input type="email" name="email" class="form-control" placeholder="your email address">
+							</div>
+
+							<div class="form-group col-sm-4">
+								<button type="submit" class="btn btn-default">Subcribe</button>
+							</div>
+						</div><!-- /.row form-inline--> 
+					</form><!-- form-inline -->
+				</div><!-- /.col-md-8 -->
+			</div><!-- /.row container-->
+		</div><!-- /.container-->
+	</section>
+	
+	<!-- Нижняя bottom карусель -->
+	<section class="bottom-slider">
+		<div class="container">
+		<!-- чтобы slider не вылазил за пределы страницы -->
+			<ul id="elastislide" class="elastislide-list">
+				<!-- ... -->
+				<li><a href="#"><img src="img/partner1.jpg" alt="partner1" /></a></li>
+				<li><a href="#"><img src="img/partner5.jpg" alt="partner5" /></a></li>
+				<li><a href="#"><img src="img/partner6.jpg" alt="partner6" /></a></li>
+				<li><a href="#"><img src="img/partner4.jpg" alt="partner4" /></a></li>
+				<li><a href="#"><img src="img/partner6.jpg" alt="partner6" /></a></li>
+				<li><a href="#"><img src="img/partner5.jpg" alt="partner5" /></a></li>
+				<li><a href="#"><img src="img/partner1.jpg" alt="partner1" /></a></li>
+				<li><a href="#"><img src="img/partner6.jpg" alt="partner6" /></a></li>
+				<li><a href="#"><img src="img/partner5.jpg" alt="partner5" /></a></li>
+				<li><a href="#"><img src="img/partner4.jpg" alt="partner4" /></a></li>
+				<li><a href="#"><img src="img/partner1.jpg" alt="partner1" /></a></li>
+				<li><a href="#"><img src="img/partner6.jpg" alt="partner6" /></a></li>
+				<li><a href="#"><img src="img/partner5.jpg" alt="partner5" /></a></li>
+				<li><a href="#"><img src="img/partner4.jpg" alt="partner4" /></a></li>
+			</ul>
+		</div>
+	</section>
+
+	<footer>
+		<div class="footer-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="row">
+						<!-- сетка для 4 колонок -->
+							<div class="col-md-3 col-xs-6">
+								<!-- Первая колонка -->
+								<h5>Help &amp; Info</h5>
+								<ul>
+									<li><a href="#">Delivery</a></li>
+									<li><a href="#">Returns & Refunds</a></li>
+									<li><a href="#">Contact Us</a></li>
+									<li><a href="#">Track your Order</a></li>
+									<li><a href="#">Reglaze Service</a></li>
+									<li><a href="#">Lens Price Comparison</a></li>
+									<li><a href="#">A - Z Brands</a></li>
+									<li><a href="#">FAQ's</a></li>
+								</ul>
+							</div><!-- /.col-md-3 col-xs-6 Help &amp; Info-->
+							
+							<div class="col-md-3 col-xs-6">
+								<!-- Вторая колонка -->
+								<h5>Brands we sell</h5>
+								<ul>
+									<li><a href="#">Noosa Amsterdam</a></li>
+									<li><a href="#">Cream Clothing</a></li>
+									<li><a href="#">Taschendieb</a></li>
+									<li><a href="#">Hermes paris</a></li>
+									<li><a href="#">D&G Fashion</a></li>
+								</ul>
+							</div><!-- /.col-md-3 col-xs-6 Brands we sell-->
+							
+							<div class="clearfix visible-xs-block visible-sm-block"></div>
+							<div class="col-md-3 col-xs-6">
+								<!-- Третяя колонка -->
+								<h5>Care &amp; advice</h5>
+								<ul>
+									<li><a href="#">Prescription Information</a></li>
+									<li><a href="#">Lenses & Coatings</a></li>
+									<li><a href="#">PD Measurement</a></li>
+									<li><a href="#">Style Advice</a></li>
+									<li><a href="#">Size Guide</a></li>
+									<li><a href="#">Shopping Guide</a></li>
+								</ul>
+							</div><!-- /.col-md-3 col-xs-6 Care &amp; advice-->
+							
+							<div class="col-md-3 col-xs-6">
+								<!-- Четвертая колонка -->
+								<h5>Company</h5>
+								<ul>
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">Our Store</a></li>
+									<li><a href="#">Terms & Conditions</a></li>
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">Cookies</a></li>
+									<li><a href="#">Find us</a></li>
+								</ul>
+							</div><!-- /.col-md-3 col-xs-6 Company-->
+						</div><!-- /.row сетка для 4 колонок -->
+					</div><!-- /.col-md-10 .row -->
+
+					<div class="col-md-2">
+						<h5>Follow us</h5>
+						<div class="social-icons">
+							<a href="#"><img src="img/fb.jpg" alt="fb"></a>
+							<a href="#"><img src="img/tw.jpg" alt="tw"></a>
+							<a href="#"><img src="img/fl.jpg" alt="fl"></a>
+						</div>
+					</div><!-- /.col-md-2-->
+				</div><!-- /.row-->
+			</div><!-- /.container-->
+		</div><!-- /.footer-menu-->
+		<footer class="footer-copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<p>&copy; 2018 Fashion Store. All Rights Reserved.</p>
+					</div><!-- /.col-md-4-->
+
+					<div class="col-md-8 text-right pay">
+						<a href="#"><img src="img/pay1.jpg" alt="pay1"></a>
+						<a href="#"><img src="img/pay2.jpg" alt="pay2"></a>
+						<a href="#"><img src="img/pay3.jpg" alt="pay3"></a>
+						<a href="#"><img src="img/pay4.jpg" alt="pay4"></a>
+						<a href="#"><img src="img/pay5.jpg" alt="pay5"></a>
+						<a href="#"><img src="img/pay6.jpg" alt="pay6"></a>
+						<a href="#"><img src="img/pay7.jpg" alt="pay7"></a>
+						<a href="#"><img src="img/pay8.jpg" alt="pay8"></a>
+					</div><!-- /.col-md-8-->
+				</div><!-- /.row-->
+			</div><!-- /.container-->
+		</footer>
+	</footer>
+</body>
+</html>
